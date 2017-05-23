@@ -5,10 +5,10 @@
 ## 此APP仅供学习使用!!!【*如构成侵权请及时通知我修改或删除*】
 
 # PYPlayer部分截图
-![app_gif](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124149.png)
-![app_gif](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124203.png)
-![app_gif](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124255.png)
-![app_gif](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124306.png)
-![app_gif](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124332.png)
-![app_gif](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124344.png)
-![app_gif](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124407.png)
+![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124149.png)
+![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124203.png)
+![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124255.png)
+![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124306.png)
+![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124332.png)
+![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124344.png)
+![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124407.png)
