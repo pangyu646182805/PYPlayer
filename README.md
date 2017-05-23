@@ -5,7 +5,7 @@
 ## 此APP仅供学习使用!!!【*如构成侵权请及时通知我修改或删除*】
 
 # PYPlayer部分截图
-<img width="150" height="150" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124149.png"/>
+<img width="720" height="1280" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124149.png"/>
 ![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124203.png)
 ![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124255.png)
 ![](https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124306.png)
