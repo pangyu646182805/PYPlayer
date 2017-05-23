@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_container"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/y144"
+    android:background="@color/backgroundPanel"
+    android:foreground="@drawable/rect_selector"
+    android:orientation="horizontal">
+
+    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+        android:id="@+id/tv_position"
+        android:layout_width="@dimen/x108"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="18sp"
+        tools:text="1"/>
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginRight="@dimen/x32"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:lines="1"
+            android:textColor="@color/colorGray333"
+            android:textSize="14sp"
+            tools:text="title"/>
+
+        <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+            android:id="@+id/tv_sub_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y12"
+            android:textColor="@color/colorGray666"
+            android:textSize="12sp"
+            tools:text="subTitle"/>
+    </LinearLayout>
+
+    <com.neuroandroid.pyplayer.widget.IconImageView
+        android:id="@+id/iv_menu"
+        style="@style/OverFlowButton"
+        android:layout_gravity="center_vertical"
+        tools:ignore="ContentDescription"/>
+</LinearLayout>

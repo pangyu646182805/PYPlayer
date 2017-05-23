@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#308df5</color>
+    <color name="colorPrimaryDark">#3585de</color>
+    <!--<color name="colorAccent">#FF4081</color>-->
+    <color name="colorAccent">#3585de</color>
+
+    <color name="md_blue_grey_100">#CFD8DC</color>
+    <color name="md_deep_purple_500">#673AB7</color>
+    <color name="md_indigo_500">#3F51B5</color>
+
+    <color name="ate_control_normal_light">#8A000000</color>
+
+    <color name="colorGray999">#999999</color>
+    <color name="colorGray666">#666666</color>
+    <color name="colorGray333">#333333</color>
+
+    <color name="split">#eeeeee</color>
+    <color name="backgroundColor">#f8f8f8</color>
+    <color name="backgroundPanel">#fefefe</color>
+    <color name="transparent">#00000000</color>
+
+    <color name="colorMonitorDi">#a0db2e</color>
+    <color name="colorMonitorZhong">#ffdb9e</color>
+    <color name="colorMonitorGao">#ff7679</color>
+    <color name="colorMonitorWei">#ff0000</color>
+
+    <color name="white">#fff</color>
+    <color name="white_a">#afff</color>
+    <color name="white_3">#3fff</color>
+    <color name="black">#000</color>
+    <color name="black_a">#a000</color>
+    <color name="red">#ff0000</color><!--红色 -->
+    <color name="del_red">#de7777</color>
+
+    <color name="gray">#808080</color><!--灰色 -->
+    <color name="grayccc">#cccccc</color><!--灰色 -->
+    <color name="style_red">#ff4c41</color>
+    <color name="btn_enable">#FFCBCBCB</color>
+    <color name="colorTabItem">#b2b2b2</color>
+    <color name="blue">#499BF7</color>
+    <color name="white_title">#F9F9F9</color>
+    <color name="rating_bar_color">#f8d739</color>
+
+    <!--pickerView相关-->
+    <color name="bgColor_overlay">#60000000</color>
+    <color name="pickerview_timebtn_nor">#057dff</color>
+    <color name="pickerview_timebtn_pre">#c2daf5</color>
+    <color name="pickerview_bg_topbar">#f5f5f5</color>
+    <color name="pickerview_topbar_title">#000000</color>
+    <color name="pickerview_wheelview_textcolor_out">#a8a8a8</color>
+    <color name="pickerview_wheelview_textcolor_center">#2a2a2a</color>
+    <color name="pickerview_wheelview_textcolor_divider">#d5d5d5</color>
+
+    <color name="theme_0">#f34336</color>
+    <color name="theme_1">#e81e63</color>
+    <color name="theme_2">#9b27af</color>
+    <color name="theme_3">#3f51b4</color>
+    <color name="theme_4">#308df5</color>
+    <color name="theme_5">#03a8f3</color>
+    <color name="theme_6">#00bbd3</color>
+    <color name="theme_7">#009587</color>
+    <color name="theme_8">#4cae50</color>
+    <color name="theme_9">#8ac24a</color>
+    <color name="theme_10">#ccdb39</color>
+    <color name="theme_11">#fdea3b</color>
+    <color name="theme_12">#fdc007</color>
+    <color name="theme_13">#fd9701</color>
+    <color name="theme_14">#fd5722</color>
+    <color name="theme_15">#795548</color>
+    <color name="theme_16">#9d9d9d</color>
+    <color name="theme_17">#607d8a</color>
+
+    <!-- 夜间模式TitleBar背景颜色 -->
+    <color name="dark_theme_title_bar">#343a49</color>
+    <!-- 夜间模式第二背景颜色 -->
+    <color name="dark_theme_second_color">#242833</color>
+</resources>

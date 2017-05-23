@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/PYPlayer.iml" filepath="$PROJECT_DIR$/PYPlayer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/neurocore/neurocore.iml" filepath="$PROJECT_DIR$/neurocore/neurocore.iml" />
+    </modules>
+  </component>
+</project>

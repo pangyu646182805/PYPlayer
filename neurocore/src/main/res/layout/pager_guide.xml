@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:padding="@dimen/x32">
+
+    <ImageView
+        android:id="@+id/iv_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="@dimen/y16"
+        android:layout_marginTop="@dimen/y32"
+        android:layout_weight="1"
+        android:gravity="center"
+        tools:ignore="ContentDescription"
+        tools:src="@mipmap/icon_web"/>
+
+    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y16"
+        android:fontFamily="sans-serif-medium"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Headline"
+        tools:ignore="UnusedAttribute"
+        tools:text="Lorem ipsum"/>
+
+    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+        android:id="@+id/tv_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/y16"
+        android:gravity="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Subhead"
+        tools:text="Lorem ipsum dolor sit amet, consectetur, adipisci velit, …"/>
+
+    <Button
+        android:id="@+id/btn_started"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y16"
+        android:background="@color/backgroundColor"
+        android:paddingLeft="@dimen/x24"
+        android:paddingRight="@dimen/x24"
+        android:text="GET STARTED"/>
+
+    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+        android:id="@+id/tv_position"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="@dimen/y16"
+        android:textColor="@color/colorGray333"
+        tools:text="1/3"/>
+</LinearLayout>

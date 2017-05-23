@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:orientation="vertical">
+
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/layout_title_bar"/>
+    </android.support.design.widget.AppBarLayout>
+
+    <ScrollView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:requiresFadingEdge="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+                android:id="@+id/tv_color_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/x32"
+                android:paddingBottom="@dimen/y24"
+                android:paddingTop="@dimen/y24"
+                android:text="色彩"
+                android:textColor="@color/colorPrimary"/>
+
+            <LinearLayout
+                android:id="@+id/ll_dark_theme"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="@drawable/rect_selector"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/y24"
+                android:paddingLeft="@dimen/x32"
+                android:paddingRight="@dimen/x32"
+                android:paddingTop="@dimen/y24">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="夜间模式"
+                        android:textColor="@color/colorGray333"
+                        android:textSize="14sp"/>
+
+                    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y16"
+                        android:text="保护你的眼睛"
+                        android:textColor="@color/colorGray666"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <android.support.v7.widget.SwitchCompat
+                    android:id="@+id/sw"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_theme_color"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                android:foreground="@drawable/rect_selector"
+                android:orientation="horizontal"
+                android:paddingBottom="@dimen/y24"
+                android:paddingLeft="@dimen/x32"
+                android:paddingRight="@dimen/x32"
+                android:paddingTop="@dimen/y24">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="主题色"
+                        android:textColor="@color/colorGray333"
+                        android:textSize="14sp"/>
+
+                    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="@dimen/y16"
+                        android:text="页面中的主色调和点缀色"
+                        android:textColor="@color/colorGray666"
+                        android:textSize="12sp"/>
+                </LinearLayout>
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/iv_theme_color"
+                    android:layout_width="@dimen/x48"
+                    android:layout_height="@dimen/y48"
+                    android:layout_gravity="center_vertical"
+                    android:src="@color/colorPrimary"
+                    app:civ_border_color="@color/colorGray999"
+                    app:civ_border_width="@dimen/x1"/>
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/y2"
+                android:background="@color/split"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    android:focusable="true"
+    android:gravity="bottom"
+    app:umanoFadeColor="@color/transparent"
+    app:umanoOverlay="true"
+    app:umanoPanelHeight="0dp"
+    app:umanoScrollableView="@+id/rv_playing_queues"
+    app:umanoShadowHeight="0dp">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:id="@+id/color_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <RelativeLayout
+            android:id="@+id/rl_player_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.neuroandroid.pyplayer.widget.WidthFitSquareLayout
+                android:id="@+id/album_cover_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true">
+
+                <fragment
+                    android:id="@+id/player_album_cover_fragment"
+                    class="com.neuroandroid.pyplayer.ui.fragment.PlayerAlbumCoverFragment"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+            </com.neuroandroid.pyplayer.widget.WidthFitSquareLayout>
+
+            <fragment
+                android:id="@+id/playback_controls_fragment"
+                class="com.neuroandroid.pyplayer.ui.fragment.CardPlayerPlaybackControlsFragment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/album_cover_container"/>
+        </RelativeLayout>
+
+        <com.neuroandroid.pyplayer.widget.TitleBar
+            android:id="@+id/player_shadow_title_bar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/bg_toolbar_shadow"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/fl_player_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/cv_playing_queues"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/y32"
+            android:layout_marginLeft="@dimen/x32"
+            android:layout_marginRight="@dimen/x32"
+            app:cardBackgroundColor="@color/backgroundColor"
+            app:cardElevation="@dimen/y8"
+            app:cardUseCompatPadding="false">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:id="@+id/ll_card_content"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <include
+                        layout="@layout/item_list"/>
+
+                    <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+                        android:id="@+id/tv_player_queue_sub_header"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/y96"
+                        android:background="@color/backgroundPanel"
+                        android:gravity="center_vertical"
+                        android:paddingLeft="@dimen/x32"
+                        android:paddingRight="@dimen/x32"
+                        android:text="@string/up_next"
+                        android:textColor="?android:textColorSecondary"
+                        android:textSize="14sp"/>
+
+                    <android.support.v7.widget.RecyclerView
+                        android:id="@+id/rv_playing_queues"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="@dimen/y16"
+                        android:requiresFadingEdge="vertical"/>
+                </LinearLayout>
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+    </FrameLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

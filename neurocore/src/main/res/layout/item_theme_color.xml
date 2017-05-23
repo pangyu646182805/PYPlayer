@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.neuroandroid.pyplayer.widget.WidthFitSquareLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundPanel">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/iv_theme_color"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        app:civ_border_width="@dimen/x1"
+        app:civ_border_color="@color/colorGray999"
+        android:layout_margin="@dimen/x16"
+        android:src="@color/colorPrimary"/>
+
+    <ImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/iv_checked"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/x32"
+        app:srcCompat="@drawable/ic_done_white"/>
+</com.neuroandroid.pyplayer.widget.WidthFitSquareLayout>

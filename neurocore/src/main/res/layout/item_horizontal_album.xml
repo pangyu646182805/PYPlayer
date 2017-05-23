@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.RecyclerView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rv_horizontal_album"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/y16"
+    android:layout_marginLeft="@dimen/x16"
+    android:layout_marginTop="@dimen/y16"
+    tools:listitem="@layout/item_album">
+</android.support.v7.widget.RecyclerView>

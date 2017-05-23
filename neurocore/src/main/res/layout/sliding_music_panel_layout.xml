@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.sothree.slidinguppanel.SlidingUpPanelLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sliding_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="bottom"
+    app:umanoOverlay="false"
+    app:umanoPanelHeight="0dp"
+    app:umanoShadowHeight="@dimen/y4">
+
+    <FrameLayout
+        android:id="@+id/fl_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <FrameLayout
+        android:id="@+id/fl_sliding_panel"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/backgroundColor">
+
+        <FrameLayout
+            android:id="@+id/fl_player_fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <fragment
+            android:id="@+id/mini_player_fragment"
+            class="com.neuroandroid.pyplayer.ui.fragment.MiniPlayerFragment"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/y112"/>
+    </FrameLayout>
+</com.sothree.slidinguppanel.SlidingUpPanelLayout>

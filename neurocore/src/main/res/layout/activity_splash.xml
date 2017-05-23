@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/ll_splash"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <ImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="@dimen/x216"
+            android:layout_height="@dimen/y215"
+            app:srcCompat="@drawable/ic_splash"/>
+
+        <com.neuroandroid.pyplayer.widget.NoPaddingTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/y16"
+            android:text="@string/app_name"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</LinearLayout>
