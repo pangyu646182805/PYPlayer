@@ -6,3 +6,5 @@
 
 # PYPlayer部分截图
 <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124149.png"/>  <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124203.png"/>  <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124255.png"/>  <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124306.png"/>  <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124332.png"/>  <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124344.png"/>  <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-124407.png"/>  <img width="180" height="320" src="https://github.com/pangyu646182805/PYPlayer/blob/master/img/Screenshot_20170523-133100.png"/>
+
+## app下载：[apk](https://github.com/pangyu646182805/PYPlayer/blob/master/neurocore/neurocore-release.apk)
