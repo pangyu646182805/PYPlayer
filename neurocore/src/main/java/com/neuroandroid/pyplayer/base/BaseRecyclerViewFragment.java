@@ -116,7 +116,7 @@ public abstract class BaseRecyclerViewFragment<ADAPTER extends SelectAdapter, LM
         mRvMusic.getItemAnimator().setMoveDuration(333);
         if (mRvMusic instanceof FastScrollRecyclerView) {
             // 设置scroll_bar颜色
-            // ViewUtil.setUpFastScrollRecyclerViewColor(getActivity(), ((FastScrollRecyclerView) recyclerView), ThemeStore.accentColor(getActivity()));
+            // ViewUtils.setUpFastScrollRecyclerViewColor(getActivity(), ((FastScrollRecyclerView) recyclerView), ThemeStore.accentColor(getActivity()));
         }
         mRvMusic.setLayoutManager(mLayoutManager);
         mRvMusic.setAdapter(mAdapter);
@@ -142,8 +142,8 @@ public abstract class BaseRecyclerViewFragment<ADAPTER extends SelectAdapter, LM
     private void checkIsEmpty() {
         if (mLoadingLayout != null) {
             if (mAdapter == null || mAdapter.getItemCount() == 0) {
-                ShowUtils.showToast((mAdapter == null) + " : " + mAdapter.getItemCount());
                 showError(() -> {
+                    ShowUtils.showToast((mAdapter == null) + " : " + mAdapter.getItemCount());
                 });
             }
         }

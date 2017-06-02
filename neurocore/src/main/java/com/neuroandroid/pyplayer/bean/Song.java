@@ -55,7 +55,6 @@ public class Song implements Parcelable, ISelect {
         if (albumName != null ? !albumName.equals(song.albumName) : song.albumName != null)
             return false;
         return artistName != null ? artistName.equals(song.artistName) : song.artistName == null;
-
     }
 
     @Override

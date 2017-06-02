@@ -12,6 +12,8 @@ import com.neuroandroid.pyplayer.R;
 import com.neuroandroid.pyplayer.service.PYPlayerHelper;
 import com.neuroandroid.pyplayer.ui.fragment.CardPlayerFragment;
 import com.neuroandroid.pyplayer.ui.fragment.MiniPlayerFragment;
+import com.neuroandroid.pyplayer.utils.SystemUtils;
+import com.neuroandroid.pyplayer.utils.ThemeUtils;
 import com.neuroandroid.pyplayer.utils.UIUtils;
 import com.sothree.slidinguppanel.SlidingUpPanelLayout;
 
@@ -135,6 +137,9 @@ public class BaseSlidingPanelActivity extends BaseMusicServiceActivity implement
      * 当面板展开时的回调
      */
     public void onPanelExpanded(View panel) {
+        if (ThemeUtils.isDarkStatusBar(this)) {
+            SystemUtils.setTranslateStatusBar(this);
+        }
         int playerFragmentColor = mPlayerFragment.getPaletteColor();
         super.setTaskDescriptionColor(playerFragmentColor);
 
@@ -147,6 +152,9 @@ public class BaseSlidingPanelActivity extends BaseMusicServiceActivity implement
      * 当面板收缩时的回调
      */
     public void onPanelCollapsed(View panel) {
+        if (ThemeUtils.isDarkStatusBar(this)) {
+            SystemUtils.myStatusBar(this);
+        }
         super.setTaskDescriptionColor(mTaskColor);
 
         mPlayerFragment.setMenuVisibility(false);

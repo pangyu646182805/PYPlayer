@@ -5,6 +5,7 @@
     android:id="@+id/rv_horizontal_album"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:nestedScrollingEnabled="false"
     android:layout_marginBottom="@dimen/y16"
     android:layout_marginLeft="@dimen/x16"
     android:layout_marginTop="@dimen/y16"
